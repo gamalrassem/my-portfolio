@@ -1,0 +1,72 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  font-size: 1rem;
+  background-color: whitesmoke;
+  color: #1f2937;
+}
+
+/* Header and footer share the same dark look */
+header,
+footer {
+  background-color: #1f2937;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+}
+
+h1 {
+  font-size: 2rem;
+  margin: 0.5rem 0;
+}
+
+/* Menu */
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  display: inline-block;
+  margin: 0 1rem;
+}
+
+nav a {
+  color: white;
+  font-weight: bold;
+  font-size: 1.125rem;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: gold;
+  text-decoration: underline;
+}
+
+/* Content */
+main {
+  max-width: 50rem;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+section {
+  background-color: white;
+  margin-bottom: 1rem;
+  padding: 1rem 1.5rem;
+}
+
+h2 {
+  font-size: 1.5rem;
+  color: #1d4ed8;
+}
+
+.highlight {
+  background-color: gold;
+}
+
+footer p {
+  font-size: 0.875rem;
+  margin: 0;
+}
